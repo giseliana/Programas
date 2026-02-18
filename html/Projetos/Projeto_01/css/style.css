@@ -1,11 +1,13 @@
-*{margin: 0;
-padding: 0;
-box-sizing: border-box; 
-font-family: "Open Sans" ;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;       
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-html,body{
+html,
+body {
     height: 100%;
 }
 
@@ -14,35 +16,36 @@ html,body{
     src: url('../fonts/OpenSans-light.ttf');
 }
 
-.center{
+.center {
     width: 1200px;
     margin: 0 auto;
 }
 
-.header{
+.header {
     width: 100%;
     height: 90px;
-    background-color:rgb(66, 39, 19);
+    background-color: rgb(66, 39, 19);
 }
 
 
 
-.header img{
+.header img {
     width: 150px;
 }
 
-.container-banner{
+.container-banner {
     width: 100%;
     height: 557px;
-    background-image:url('https://image.tuasaude.com/media/article/gb/wv/beneficios-do-inhame_22125.jpg?width=686&height=487');
+    background-image: url('https://image.tuasaude.com/media/article/gb/wv/beneficios-do-inhame_22125.jpg?width=686&height=487');
     background-size: cover;
     background-position: center;
 }
-.container-banner > .center{
+
+.container-banner>.center {
     height: 100%;
 }
 
-.form{
+.form {
     padding: 10px;
     width: 400px;
     height: calc(100% + 30px);
@@ -54,17 +57,18 @@ html,body{
     background-clip: padding-box;
 }
 
-.form h2{
+.form h2 {
     font-weight: normal;
     color: #52320f;
     font-size: 20px;
 }
 
-.input-container{
+.input-container {
     margin-top: 20px;
 }
 
-.input-container span,.form p{
+.input-container span,
+.form p {
     display: inline-block;
     width: 100%;
     color: #52391d;
@@ -73,21 +77,22 @@ html,body{
 }
 
 
-.form p{
+.form p {
     margin: 20px 0;
 }
 
-.input-container input[type=text]{
+.input-container input[type=text] {
     margin-top: 8px;
     width: 344px;
     height: 55px;
     border: 1px solid #241607;
 }
 
-.form .input-submit-container{
+.form .input-submit-container {
     text-align: center;
 }
-.form input[type="submit"]{
+
+.form input[type="submit"] {
     color: #c2b29f;
     font-size: 25px;
     width: 280px;
@@ -101,53 +106,75 @@ html,body{
     cursor: pointer;
 }
 
-.form input[type="submit"]:hover{
+.form input[type="submit"]:hover {
     background-color: #2e1a03;
 }
 
-.container-list{
+.container-list {
     padding: 30px;
-    margin-top: 40px;
+    margin-top: 100px;
     float: left;
-    width: 619px;
+    width: 519px;
     height: 270px;
     background-color: rgba(255, 255, 255, 0.8);
 
 }
-.container-list ul{
+
+.container-list ul {
     list-style-position: inside;
 
 }
 
-.container-list ul li{
+.container-list ul li {
     margin-top: 18px;
     color: #c2b29f;
 
 }
-.container-2{
-padding: 40px 0;
-background-color: coral;
-text-align: center;
+
+.container-2 {
+    padding: 40px 0;
+    background-color: coral;
+    text-align: center;
 }
 
-.container-2 h2{
+.container-2 h2 {
     font-weight: normal;
 }
 
-.container-2 p{
+.container-2 p {
     width: 698px;
     display: inline-block;
     text-align: justify;
     margin: 15px 0;
-
 }
 
-.arrow{
+.arrow {
     position: relative;
     top: 60px;
     left: 50%-20px;
-    width: 40px; 
-    height: 40px; 
+    width: 40px;
+    height: 40px;
     background-image: url(https://cdn-icons-png.flaticon.com/512/271/271228.png);
     background-size: 100% 100%;
+}
+
+.section-1 {
+    padding: 90px 0;
+}
+
+.section-1 h2 {
+    text-align: center;
+    color: #52391d;
+    font-weight: normal;
+}
+
+.container-section {
+    text-align: center;
+
+}
+
+.container-single{
+    float: left;
+    width: 33.3333%;
+    
 }
